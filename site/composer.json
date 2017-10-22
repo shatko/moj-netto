@@ -30,6 +30,42 @@
     {
       "type": "composer",
       "url": "https://wpackagist.org"
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "deliciousbrains/wp-migrate-db-pro",
+        "version": "1.8",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://deliciousbrains.com/dl/wp-migrate-db-pro-latest.zip?licence_key=98197958-e477-434f-9346-b52c6841ee2e&site_url=moj-netto.shatko.party"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "deliciousbrains/wp-migrate-db-pro-media-files",
+        "version": "1.4.8",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://deliciousbrains.com/dl/wp-migrate-db-pro-media-files-latest.zip?licence_key=98197958-e477-434f-9346-b52c6841ee2e&site_url=moj-netto.shatko.party"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "advanced-custom-fields/advanced-custom-fields-pro",
+        "version": "5.6.3",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&k=b3JkZXJfaWQ9Mzk2NzJ8dHlwZT1wZXJzb25hbHxkYXRlPTIwMTQtMDktMTMgMTE6MTc6NTU="
+        }
+      }
     }
   ],
   "require": {
@@ -38,7 +74,11 @@
     "vlucas/phpdotenv": "^2.0.1",
     "johnpbloch/wordpress": "4.8.2",
     "oscarotero/env": "^1.1.0",
-    "roots/wp-password-bcrypt": "1.0.0"
+    "roots/wp-password-bcrypt": "1.0.0",
+    "roots/soil": "3.7.1",
+    "deliciousbrains/wp-migrate-db-pro": "1.8",
+    "deliciousbrains/wp-migrate-db-pro-media-files": "1.4.8",
+    "advanced-custom-fields/advanced-custom-fields-pro": "5.6.3"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2"
